@@ -26,7 +26,7 @@ void ProjInstr::execute(Number &pc, URM::Registries &registries) const {
 JumpInstr::JumpInstr(byte a, byte b, byte t) : a(a), b(b), t(t) {}
 void JumpInstr::execute(Number &pc, URM::Registries &registries) const {
     if (registries[a] == registries[b])
-        pc = t * sizeof(WORD);
+        pc = t;
     else
         ++pc;
 }
