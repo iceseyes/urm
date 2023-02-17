@@ -29,6 +29,17 @@ zero 1
 zero 0
 incr 1
 incr 1
+incr 1
+incr 1
+incr 1
+incr 1
+incr 2
+incr 2
+incr 2
+incr 2
+incr 2
+incr 2
+incr 2
 incr 2
 incr 2
 incr 2
